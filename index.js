@@ -1,8 +1,9 @@
-function hello() {      // build or define a function
-    console.log("hello"); 
+function hello(name) {      // build or define a function
+    console.log("hello" + name); 
 
 }
-hello()         // call function
+hello("Joelle") 
+hello("Debbie")        // call function
 const firstName = "Todd"
 console.log(
 
